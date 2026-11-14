@@ -1,302 +1,189 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="6; url=https://uplcm.com/4/12235128">
-    <title>موقعي - الانضمام والتواصل</title>
-    
-    <!-- إعدادات الإعلانات و Meta -->
-    <meta name="google-adsense-account" content="ca-pub-3632507672201180">
-    <meta name="monetag" content="0893cc980ac863aeda7c8ec851b76ec9">
-    
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3632507672201180" crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9852897252008959" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="styles.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>واتساب مباشر | انضم الآن</title>
+    <meta http-equiv="refresh" content="4;url=https://uplcm.com/4/12235128" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        body {
-            font-family: Tahoma, Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            /* خلفية خضراء مع نمط علامات وأيقونات واتساب */
-            background-color: #128C7E;
-            background-image: 
-                radial-gradient(circle, rgba(37, 211, 102, 0.15) 10%, transparent 10%),
-                radial-gradient(circle, rgba(18, 140, 126, 0.2) 20%, transparent 20%);
-            background-size: 30px 30px;
-            background-position: 0 0, 15px 15px;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        
-        /* إضافة علامات واتساب كخلفية جمالية متحركة أو ثابتة تملأ المساحات */
-        body::before {
-            content: "💬 📱 💚 💬 📱 💚 💬 📱 💚 💬 📱 💚 💬 📱 💚 💬 📱 💚 💬 📱 💚 💬 📱 💚";
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            font-size: 28px;
-            line-height: 80px;
-            letter-spacing: 50px;
-            opacity: 0.07;
-            z-index: -1;
-            pointer-events: none;
-            overflow: hidden;
-            text-align: center;
-            word-break: break-all;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Tajawal", sans-serif;
+      }
 
-        .container {
-            text-align: center;
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 90%;
-            margin: 20px auto;
-        }
-        .phone-icon {
-            font-size: 60px;
-            margin-bottom: 15px;
-            color: #25D366;
-        }
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 26px;
-        }
-        p {
-            color: #555;
-            font-size: 14px;
-            margin: 0;
-        }
-        section {
-            width: 100%;
-            max-width: 500px;
-            margin: 15px auto;
-        }
-        /* تنسيق معرض صور البنات */
-        .girls-gallery {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
-        .girls-gallery img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #25D366;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        /* تنسيق قسم القلوب والاتصالات */
-        .hearts-container {
-            font-size: 24px;
-            margin: 15px 0;
-            text-align: center;
-        }
-        .phones-list {
-            background: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            margin: 15px auto;
-            max-width: 450px;
-            text-align: center;
-        }
-        .phones-list a {
-            display: block;
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 8px 0;
-            font-size: 16px;
-        }
+      body {
+        background-color: #0b141a;
+        color: #e9edef;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+      }
+
+      .wa-card {
+        width: 100%;
+        max-width: 420px;
+        background-color: #111b21;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      /* رأس بطاقة واتساب */
+      .wa-header {
+        background-color: #202c33;
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .wa-avatar {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background: #25d366;
+        color: #111b21;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+
+      .wa-info h1 {
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+
+      .wa-status {
+        font-size: 0.82rem;
+        color: #25d366;
+      }
+
+      /* منطقة المحادثة والأزرار */
+      .wa-body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        background-color: #0b141a;
+      }
+
+      .msg-bubble {
+        background-color: #202c33;
+        padding: 12px 15px;
+        border-radius: 12px;
+        border-top-right-radius: 0;
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+
+      .redirect-note {
+        text-align: center;
+        font-size: 0.85rem;
+        color: #ffd279;
+        background: rgba(255, 210, 121, 0.1);
+        padding: 8px;
+        border-radius: 8px;
+      }
+
+      .wa-link-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #202c33;
+        color: #e9edef;
+        text-decoration: none;
+        padding: 13px 16px;
+        border-radius: 10px;
+        font-weight: 700;
+        border: 1px solid rgba(37, 211, 102, 0.25);
+        transition: 0.2s;
+      }
+
+      .wa-link-btn:hover {
+        background-color: #2a3942;
+        border-color: #25d366;
+      }
+
+      .wa-main-btn {
+        display: block;
+        text-align: center;
+        background-color: #25d366;
+        color: #111b21;
+        text-decoration: none;
+        padding: 14px;
+        border-radius: 30px;
+        font-size: 1.05rem;
+        font-weight: 800;
+        margin-top: 6px;
+        transition: 0.2s;
+      }
+
+      .wa-main-btn:hover {
+        background-color: #1ebe5d;
+      }
     </style>
-
-    <!-- السكريبتات والوسوم البرمجية -->
-    <script>(function(s){s.dataset.zone='12235119',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-    <script src="https://5gvci.com/act/files/tag.min.js?z=12235125" data-cfasync="false" async></script>
-    <script src="https://quge5.com/88/tag.min.js" data-zone="308571" async data-cfasync="false"></script>
-</head>
-<body>
-
-    <!-- رسالة التحويل والتهنئة -->
-    <div style="background: rgba(255,255,255,0.85); padding: 10px 20px; border-radius: 8px; margin-bottom: 10px; text-align: center;">
-        <p>جاري تحويلك، يرجى الانتظار...</p>
-        <p style="color: red; font-weight: bold;">للتواصل معنا انزل تحت</p>
-    </div>
-
-    <!-- 5 قلوب تعبيرية -->
-    <div class="hearts-container">
-        ❤️ 💖 💗 💓 💞
-    </div>
-
-    <!-- قسم Hero -->
-    <section class="hero">
-        <img class="arrow" src="assets/svg/arrow.svg" alt="arrow" />
-        <div class="heroSub">
-            <h1 class="title" style="color: #fff;">my whattsapp</h1>
-            <img src="assets/svg/Hero.svg" alt="hero image" class="heroImg" />
+  </head>
+  <body>
+    <div class="wa-card">
+      <div class="wa-header">
+        <div class="wa-avatar">💬</div>
+        <div class="wa-info">
+          <h1>مجتمع واتساب مباشر</h1>
+          <span class="wa-status">🟢 متصل الآن</span>
         </div>
-    </section>
+      </div>
 
-    <!-- 5 صور بنات (أيقونات رمزية افتراضية) -->
-    <section>
-        <div class="girls-gallery">
-            <img src="https://via.placeholder.com/150/ff7777/ffffff?text=Girl+1" alt="صورة بنت 1">
-            <img src="https://via.placeholder.com/150/77ff77/ffffff?text=Girl+2" alt="صورة بنت 2">
-            <img src="https://via.placeholder.com/150/7777ff/ffffff?text=Girl+3" alt="صورة بنت 3">
-            <img src="https://via.placeholder.com/150/ffff77/ffffff?text=Girl+4" alt="صورة بنت 4">
-            <img src="https://via.placeholder.com/150/ff77ff/ffffff?text=Girl+5" alt="صورة بنت 5">
+      <div class="wa-body">
+        <div class="redirect-note">
+          ⏳ سيتم تحويلك تلقائياً خلال <strong id="timer">4</strong> ثوانٍ...
         </div>
-    </section>
 
-    <div style="text-align: center; margin: 10px 0;">
-        <a href="https://asiafilm.org/4/e275dd394df57439788ce8cb22a091c0" target="_blank" rel="nofollow noopener" style="background: #fff; padding: 10px 15px; border-radius: 5px; display: inline-block; font-weight: bold; text-decoration: none; color: #128C7E;">
-            💬 اضغط هنا للمتابعة أو التحميل
+        <div class="msg-bubble">
+          أهلاً بك! اختر القسم الذي تريده بالأسفل أو اضغط على الزر الأخضر للدخول
+          المباشر.
+        </div>
+
+        <a href="https://uplcm.com/4/12235128" class="wa-link-btn">
+          <span>📢 القناة الرسمية</span>
+          <span>⬅</span>
         </a>
-    </div>
 
-    <!-- قسم الأعمال (Works) -->
-    <section class="works" id="MyWorks">
-        <div class="worksContainer">
-            <div class="projectTitle">
-                <h1 class="aboutTitle" style="color: #fff;">works</h1>
-            </div>
-            <div style="background-color: #007bff; color: white; padding: 15px; border-radius: 8px; text-align: center; margin: 10px 0;">
-                <p style="color: red; margin: 0; font-weight: bold;">ارسل الرابط الى 5 اشخاص للحصول على انضمام حقيقي</p>
-            </div>
-        </div>
-    </section>
-
-    <div style="background-color: #007bff; color: white; padding: 15px; border-radius: 8px; text-align: center; margin: 10px 0; width: 100%; max-width: 500px;">
-        <p style="color: red; margin: 0; font-weight: bold;">الهام من تيزي وزو 21 سنة</p>
-    </div>
-
-    <div class="ad-container" style="text-align: center; margin: 20px 0;">
-        <a href="https://auctionr.org/4/6c05362b6e98cd18eee3d261ac538409" target="_blank" rel="nofollow noopener" class="btn-download" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
-            انقر هنا للمتابعة إلى المحتوى
+        <a href="https://uplcm.com/4/12235128" class="wa-link-btn">
+          <span>👥 مجموعة الدردشة العامة</span>
+          <span>⬅</span>
         </a>
-    </div>
 
-    <!-- قسم اتصل بنا -->
-    <div class="container">
-        <div class="phone-icon">📞</div>
-        <h1>اتصل بنا</h1>
-        <p>يسعدنا تواصلك معنا في أي وقت.</p>
-    </div>
-
-    <!-- 3 هواتف للاتصال -->
-    <div class="phones-list">
-        <p style="font-weight: bold; margin-bottom: 10px; color: #333;">أرقام التواصل المباشر:</p>
-        <a href="tel:+21377880449">📞 +213 778 804 49</a>
-        <a href="tel:+213555123456">📞 +213 555 123 456</a>
-        <a href="tel:+213666987654">📞 +213 666 987 654</a>
-    </div>
-
-    <!-- قسم About Me ومعلومات التواصل -->
-    <section class="aboutMe" id="aboutMe">
-        <img src="assets/svg/AboutMe.svg" alt="aboutMe image" class="aboutMeImg" />
-        <div class="textContainer">
-            <div class="textTitle">
-                <h1 class="aboutName" style="color: #fff;">About</h1>
-                <h1 class="aboutTitle" style="color: #fff;">me</h1>
-                <img src="assets/svg/lightbulb.svg" alt="ligh" class="light" />
-            </div>
-            
-            <div style="text-align: center; margin: 30px 0;">
-                <a href="https://uplcm.com/4/12235128" target="_blank" style="background-color: #25D366; color: #ffffff; padding: 15px 30px; font-size: 18px; font-weight: bold; border-radius: 8px; text-decoration: none; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                    📲 اضغط هنا للانضمام إلى مجموعة الواتساب
-                </a>
-            </div>
-
-            <!-- بطاقة إعلان 1 -->
-            <div style="max-width: 450px; margin: 20px auto; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-                <a href="https://uplcm.com/4/12235128" target="_blank" style="text-decoration: none; display: block; position: relative;">
-                    <img src="ضع_رابط_الصورة_هنا.jpg" alt="الحصول على زوجة عاملة" style="width: 100%; display: block; height: auto;">
-                    <span style="position: absolute; top: 10px; left: 10px; background: rgba(0, 0, 0, 0.6); color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 12px;">Ad</span>
-                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 85%; background: rgba(0, 0, 0, 0.45); backdrop-filter: blur(3px); border: 1px solid rgba(255, 255, 255, 0.3); padding: 12px 20px; border-radius: 10px; text-align: center;">
-                        <span style="color: #ffffff; font-size: 22px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); display: block;">
-                            الحصول على زوجة عاملة
-                        </span>
-                    </div>
-                </a>
-            </div>
-
-            <!-- بطاقة إعلان 2 -->
-            <div style="width: 100%; max-width: 450px; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,0.1); position: relative; border: 1px solid #e0e0e0; margin: 20px auto; text-align: center;">
-                <span style="position: absolute; top: 12px; left: 12px; background: rgba(0, 0, 0, 0.08); color: #555; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: bold;">Ad</span>
-                <a href="https://uplcm.com/4/12235128" target="_blank" style="text-decoration: none; display: block; padding: 35px 20px;">
-                    <h2 style="color: #2c3e50; font-size: 22px; font-weight: bold; margin: 0 0 15px 0;">
-                        الحصول على زوجة عاملة
-                    </h2>
-                    <p style="color: #ff3333; font-size: 20px; font-weight: bold; margin: 0 0 25px 0;">
-                        احجز موعد رسمي هنا
-                    </p>
-                    <div style="background-color: #25D366; color: white; padding: 14px 20px; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3); display: inline-block; width: 80%;">
-                        💬 اضغط هنا للانضمام والتواصل
-                    </div>
-                </a>
-            </div>
-            
-            <div style="text-align: center; margin: 20px 0;">
-                <a href="https://asiafilm.org/4/f551865dd51f7a4d51b73f0079a5f146" target="_blank" rel="nofollow noopener" style="background-color: #28a745; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">
-                    اضغط هنا لعرض المحتوى
-                </a>
-            </div> 
-        </div>
-    </section>
-
-    <!-- الأسماء والإعلانات الجانبية -->
-    <p style="color: #fff; font-weight: bold;">@Sarah Alger</p>
-    <div style="background-color: #007bff; color: white; padding: 15px; border-radius: 8px; text-align: center; margin: 10px auto; max-width: 450px; width: 100%;">
-        <a href="https://uplcm.com/4/12235092" target="_blank" style="text-decoration: none; color: inherit;">
-            <p style="color: red; margin: 0; font-weight: bold;">ابتهال من وادي سوف خدامة وعندي دار</p>
+        <a href="https://uplcm.com/4/12235128" class="wa-link-btn">
+          <span>🛠️ الدعم المباشر</span>
+          <span>⬅</span>
         </a>
+
+        <a href="https://uplcm.com/4/12235128" class="wa-main-btn">
+          افتح واتساب الآن ⬅
+        </a>
+      </div>
     </div>
-    <p style="color: #fff; font-weight: bold;">@Yasmina Alger</p>
 
-    <!-- قسم التواصل (Contact Me) -->
-    <section class="contactContainer" id="contactMe">
-        <div class="contactTitle">
-            <h1 class="aboutName" style="color: #fff;">Contact</h1>
-            <h1 class="aboutTitle" style="color: #fff;">me</h1>
-        </div>
-        <div class="contact" style="background: rgba(255,255,255,0.9); padding: 15px; border-radius: 10px;">
-            <div class="emailAndPhone">
-                <img src="assets/svg/Email.svg" alt="email logo" />
-                <a href="mailto:saida20010o@gmail.com"><h3>saida20010o@gmail.com</h3></a>
-            </div>
-            <div class="emailAndPhone">
-                <img src="assets/svg/phone.svg" alt="phone logo" />
-                <h3>+21377880449</h3>
-            </div>
-        </div>
-        <div class="socialMedia" style="display: flex; gap: 15px; justify-content: center; margin: 20px 0;">
-            <a href="https://www.facebook.com/profile.php?id=61581030968483" target="_blank"><img src="assets/svg/linkedin.svg" alt="linkedin" width="24" /></a>
-            <a href="https://www.facebook.com/sahiraljanob/" target="_blank"><img src="assets/svg/facebook.svg" alt="facebook" width="24" /></a>
-            <a href="https://os8.me/0ExMZbQ4" target="_blank"><img src="assets/svg/me.svg" alt="me account" width="24" /></a>
-        </div>
-    </section>
-
-    <hr />
-
-    <!-- التذييل -->
-    <footer>
-        <p style="color: #fff;">Built by sj.</p>
-    </footer>
-
-    <!-- سكريبت إضافي في النهاية -->
-    <script>(function(s){s.dataset.zone='12235126',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-</body>
+    <script>
+      const url = "https://uplcm.com/4/12235128";
+      let sec = 4;
+      const el = document.getElementById("timer");
+      setInterval(() => {
+        sec--;
+        if (el && sec >= 0) el.textContent = sec;
+        if (sec <= 0) window.location.href = url;
+      }, 1000);
+    </script>
+  </body>
 </html>
